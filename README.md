@@ -18,6 +18,17 @@
 
 ---
 
+## 🔗 Live Demo
+
+- **Frontend (Vercel):** *[Insert your deployed Vercel URL here]*
+- **Backend (Render):** *[Insert your deployed Render URL here]*
+
+## 📸 Screenshots
+
+*[Add screenshots of your Home, Login, Register, and Dashboard pages here]*
+
+---
+
 ## ✨ Features
 
 | Feature | Description |
@@ -96,7 +107,7 @@ PRODIGY_FS_01/
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Rahul1613/PRODIGY_FS_01.git
 cd PRODIGY_FS_01
 ```
 
@@ -116,7 +127,7 @@ npm install
 npm run dev
 ```
 
-The frontend runs on `http://localhost:5173` and the backend on `http://localhost:5000`.
+The frontend runs on `http://localhost:5173` and the backend on `http://localhost:5050`.
 
 ---
 
@@ -124,7 +135,7 @@ The frontend runs on `http://localhost:5173` and the backend on `http://localhos
 
 ### Server (`server/.env`)
 ```env
-PORT=5000
+PORT=5050
 NODE_ENV=development
 MONGO_URI=mongodb://localhost:27017/prodigy_auth
 JWT_ACCESS_SECRET=your_super_secret_access_key
@@ -143,7 +154,7 @@ CLIENT_URL=http://localhost:5173
 
 ## 📡 API Endpoints
 
-### Base URL: `http://localhost:5000/api`
+### Base URL: `http://localhost:5050/api`
 
 #### Authentication Routes
 
